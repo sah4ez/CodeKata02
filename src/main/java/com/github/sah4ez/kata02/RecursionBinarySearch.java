@@ -1,4 +1,4 @@
-package code.pragprog.codekata;
+package com.github.sah4ez.kata02;
 
 /**
  * Created by aleksandr on 21.03.17.

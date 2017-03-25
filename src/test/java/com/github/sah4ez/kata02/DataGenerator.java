@@ -1,4 +1,4 @@
-package code.pragprog.codekata;
+package com.github.sah4ez.kata02;
 
 import java.util.ArrayList;
 
@@ -23,5 +23,10 @@ public class DataGenerator extends ArrayList<TestPair> {
         add(new TestPair(new int[]{1, 3, 4, 5},3,1));
         add(new TestPair(new int[]{1, 2, 3, 5},4,-1));
         add(new TestPair(new int[]{1, 2, 4, 5},3,-1));
+        int[] arr = new int[1000];
+        for (int i = 0; i < 1000; i++) {
+            arr[i] = i;
+        }
+        add(new TestPair(arr, 500, 500));
     }
 }
